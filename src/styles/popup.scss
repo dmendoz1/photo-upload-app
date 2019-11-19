@@ -1,0 +1,80 @@
+@import './base.scss';
+
+.full-image-component {
+  width: 80%;
+  max-width: 1000px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
+  transform: translateX(-50%);
+  left: 50%;
+  z-index: 200;
+  top: 50px;
+  font-size: 20px;
+  color: gray;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 0;
+    right: 13px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgba(000,000,000,0.5);
+    transition: color .3s;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  .image-fullsize-container {
+    flex-grow: 4;
+    position: relative;
+    min-height: 500px;
+    img {
+      width: auto;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+
+    }
+  }
+
+  .image-actions {
+    flex-grow: 1;
+    flex-basis: 210px;
+    min-width: 210px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+
+    .note {
+      font-weight: lighter;
+    }
+
+    @media (max-width: 767px) {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+
+    .crop-btn {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.popup-overlay {
+  background-color: rgba(000,000,000,0.6);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}

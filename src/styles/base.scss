@@ -1,0 +1,58 @@
+$font-stack:   'Gotham SSm A','Gotham SSm B',Helvetica,Arial,sans-serif;
+$base-color: #6eb800;
+$base-gray: #f0f0f0;
+$base-red: #ff6666;
+$white: #fff;
+$black: #000;
+
+body {
+  font: 100% $font-stack;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 25px 35px;
+  text-align: center;
+  font-size: 13px;
+  transition: all .2s linear;
+  border: none;
+  max-width: 100%;
+  outline: none;
+  box-sizing: border-box;
+
+  &.primary-btn {
+    background-color: $base-color;
+    color: $white;
+
+    &:hover {
+      background-color: #81d600;
+      color: #fff;
+    }
+  }
+
+  &.secondary-btn {
+    background-color: $black;
+    color: #fff;
+
+    &:hover {
+      background-color: white;
+      border: 1px solid $base-color;
+      color: $base-color;
+    }
+  }
+
+  &.danger-btn {
+    background-color: $base-red;
+    color: $white;
+
+    &:hover {
+      background-color: #ff9999;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 15px 25px;
+  }
+}

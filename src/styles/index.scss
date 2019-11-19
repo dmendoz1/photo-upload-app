@@ -1,0 +1,19 @@
+@import './base.scss';
+@import './dashboard.scss';
+@import './sidebar.scss';
+@import './popup.scss';
+
+
+.photo-manager-dashboard {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 550px;
+    height: 100%;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+}

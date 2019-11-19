@@ -1,0 +1,61 @@
+@import './base.scss';
+.sidebar-wrapper {
+  flex-grow: 1;
+  padding: 40px;
+
+  .input-file-button {
+    display: block;
+
+    input[type="file"] {
+      display: none;
+    }
+  }
+
+  .mosaic-view-btn,
+  .input-file-button {
+    &[disabled] {
+      cursor: not-allowed;
+      background-color: rgb(169,169,169);
+      color: rgba(255,255,255,0.5);
+      border: 1px solid transparent;
+
+      &:hover {
+        background-color: darkgray;
+        border: 1px solid transparent;
+        color: rgba(255,255,255,0.5);
+      }
+    }
+  }
+
+  .mosaic-view-btn {
+    margin-top: 15px;
+    width: 100%;
+    border: 1px solid $black;
+
+    @media(max-width: 767px) {
+      display: none;
+    }
+  }
+
+  #sort-btn {
+    width: 100%;
+    border: 1px solid $base-color;
+    margin-top: 15px;
+    color: $base-color;
+
+    &:hover {
+      background-color: $base-color;
+      color: $white;
+    }
+  }
+
+  @media (max-width: 767px) {
+    flex-basis: auto;
+    padding: 30px;
+  }
+
+  @media (min-width: 768px) {
+    flex-basis: 250px;
+    min-width: 250px;
+  }
+}
