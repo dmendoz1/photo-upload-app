@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.26981428.chunk.css",
-    "main.js": "/repository-name/static/js/main.32029c38.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.32029c38.chunk.js.map",
-    "runtime-main.js": "/repository-name/static/js/runtime-main.72186f39.js",
-    "runtime-main.js.map": "/repository-name/static/js/runtime-main.72186f39.js.map",
-    "static/js/2.a417911c.chunk.js": "/repository-name/static/js/2.a417911c.chunk.js",
-    "static/js/2.a417911c.chunk.js.map": "/repository-name/static/js/2.a417911c.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "precache-manifest.f1d2ffcf35c8f0128b26230928f88a63.js": "/repository-name/precache-manifest.f1d2ffcf35c8f0128b26230928f88a63.js",
-    "service-worker.js": "/repository-name/service-worker.js",
-    "static/css/main.26981428.chunk.css.map": "/repository-name/static/css/main.26981428.chunk.css.map"
+    "main.css": "/photo-upload-app/static/css/main.26981428.chunk.css",
+    "main.js": "/photo-upload-app/static/js/main.32029c38.chunk.js",
+    "main.js.map": "/photo-upload-app/static/js/main.32029c38.chunk.js.map",
+    "runtime-main.js": "/photo-upload-app/static/js/runtime-main.a132d13f.js",
+    "runtime-main.js.map": "/photo-upload-app/static/js/runtime-main.a132d13f.js.map",
+    "static/js/2.a417911c.chunk.js": "/photo-upload-app/static/js/2.a417911c.chunk.js",
+    "static/js/2.a417911c.chunk.js.map": "/photo-upload-app/static/js/2.a417911c.chunk.js.map",
+    "index.html": "/photo-upload-app/index.html",
+    "precache-manifest.d5034500ff24d3e538cd051875020207.js": "/photo-upload-app/precache-manifest.d5034500ff24d3e538cd051875020207.js",
+    "service-worker.js": "/photo-upload-app/service-worker.js",
+    "static/css/main.26981428.chunk.css.map": "/photo-upload-app/static/css/main.26981428.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.72186f39.js",
+    "static/js/runtime-main.a132d13f.js",
     "static/js/2.a417911c.chunk.js",
     "static/css/main.26981428.chunk.css",
     "static/js/main.32029c38.chunk.js"
